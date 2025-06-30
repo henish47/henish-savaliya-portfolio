@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for Henish Savaliya's Portfolio
 User-agent: *
-Disallow:
+Allow: /
+
+# Optional: Delay between crawler requests
+# Crawl-delay: 10
+
+# Sitemap for better search engine indexing
+Sitemap: https://henish28.vercel.app/sitemap.xml
