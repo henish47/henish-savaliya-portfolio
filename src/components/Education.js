@@ -23,7 +23,7 @@ const Education = () => {
     {
       degree: 'Diploma in Computer Engineering',
       institution: 'RK University',
-      duration: '2022 – Present',
+      duration: '2025 – Present',
       description: 'Currently pursuing diploma in Computer Engineering with focus on software development and web technologies.',
     },
   ];
