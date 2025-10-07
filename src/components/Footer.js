@@ -58,14 +58,14 @@ const Footer = () => {
             <p className="text-gray-600 dark:text-gray-300 text-lg font-medium">
               © {new Date().getFullYear()} Henish Savaliya. All rights reserved.
             </p>
-            <p className="text-gray-500 dark:text-gray-400 text-sm mt-2 flex items-center justify-center gap-1">
+            {/* <p className="text-gray-500 dark:text-gray-400 text-sm mt-2 flex items-center justify-center gap-1">
               Built with{' '}
               <span className="text-primary dark:text-primary-light">React</span>
               {' '}and{' '}
               <span className="text-primary dark:text-primary-light">Tailwind CSS</span>
               {' '}with{' '}
               <FiHeart className="inline-block text-red-500 animate-pulse" />
-            </p>
+            </p> */}
           </motion.div>
 
           {/* Quick Links */}

@@ -1,38 +1,46 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub } from 'react-icons/fi';
-import project1 from './images/Web capture_28-6-2025_105110_shushrutapharmacy.test.jpeg';
+// import project1 from './images/Web capture_28-6-2025_105110_shushrutapharmacy.test.jpeg';
 import project2 from './images/expensemanagerproject.png';
-import project3 from './images/admindashboard.png'; // Add this image to your /images folder
+// import project3 from './images/admindashboard.png';
+import project4 from './images/blingit.png'; // <-- new project image
+import project5 from './images/Admin.png'; // BlingIt Admin Dashboard
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Sushruta Pharmacy',
-      description:
-        'Full E-commerce site with cart, checkout, and payment integration using PHP and Razorpay.',
-      tech: ['PHP', 'MySQL', 'Razorpay', 'HTML/CSS'],
-      // github: 'https://github.com/henishpatel/sushruta-pharmacy',
-      image: project1,
-    },
-   
-    {
-      title: 'Admin Dashboard – Sushruta Pharmacy',
-      description:
-        'Fully dynamic admin panel built in PHP & MySQL for managing products, categories, orders, and users with secure login.',
-      tech: ['PHP', 'MySQL', 'Bootstrap 5', 'AdminLTE', 'HTML/CSS'],
-      // github: 'https://github.com/henishpatel/pharmacy-dashboard',
-      image: project3,
-    },
-    {
-      title: 'Expense Manager',
-      description:
-        'A modern web app to track personal expenses. Add, edit, delete entries with React state management.',
-      tech: ['React.js', 'Tailwind CSS', 'LocalStorage'],
-      // github: 'https://github.com/henishpatel/expense-manager',
-      image: project2,
-    },
-  ];
+  // {
+  //   title: 'Pharmacy E-commerce Website',
+  //   description:
+  //     'Full E-commerce site with cart, checkout, and payment integration using PHP and Razorpay.',
+  //   tech: ['PHP', 'MySQL', 'Razorpay', 'HTML/CSS'],
+  //   image: project1,
+  // },
+  
+  {
+    title: 'Expense Manager',
+    description:
+      'A modern web app to track personal expenses. Add, edit, delete entries with React state management.',
+    tech: ['React.js', 'Tailwind CSS', 'LocalStorage','MongoDB'],
+    image: project2,
+  },
+{
+  title: 'Online Grocery Store',
+  description:
+    'Quick-commerce grocery store web app built with Laravel and MySQL for fast ordering and delivery, featuring dynamic cart, Razorpay payment integration, and invoice generation.',
+  tech: ['Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'Razorpay','24x7 chat support'],
+  image: project4,
+},
+{
+  title: 'Admin Dashboard',
+  description:
+    'Dynamic admin panel for the BlingIt grocery store, built with Laravel and MySQL. Manage products, categories, orders, users, and generate reports with secure login access.',
+  tech: ['Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'AdminLTE', 'Bootstrap 5'],
+  image: project5,
+}
+
+
+];
 
   return (
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
